@@ -1,0 +1,3 @@
+protocol AuthPhoneModuleInput: class {
+
+}

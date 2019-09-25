@@ -12,6 +12,40 @@
 		CD364984233BD8970055E28F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD364983233BD8970055E28F /* Assets.xcassets */; };
 		CD364987233BD8970055E28F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD364985233BD8970055E28F /* LaunchScreen.storyboard */; };
 		CD36498A233BD8970055E28F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD364989233BD8970055E28F /* main.m */; };
+		CD3649A2233BDA220055E28F /* RegWasStartedAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD364994233BDA220055E28F /* RegWasStartedAssembly.swift */; };
+		CD3649A3233BDA220055E28F /* RegWasStartedViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD364996233BDA220055E28F /* RegWasStartedViewOutput.swift */; };
+		CD3649A4233BDA220055E28F /* RegWasStartedInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD364997233BDA220055E28F /* RegWasStartedInteractorOutput.swift */; };
+		CD3649A5233BDA220055E28F /* RegWasStartedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD364998233BDA220055E28F /* RegWasStartedPresenter.swift */; };
+		CD3649A6233BDA220055E28F /* RegWasStartedModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD364999233BDA220055E28F /* RegWasStartedModuleInput.swift */; };
+		CD3649A7233BDA220055E28F /* RegWasStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36499B233BDA220055E28F /* RegWasStartedViewController.swift */; };
+		CD3649A8233BDA220055E28F /* RegWasStartedViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36499C233BDA220055E28F /* RegWasStartedViewInput.swift */; };
+		CD3649A9233BDA220055E28F /* RegWasStartedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36499E233BDA220055E28F /* RegWasStartedInteractor.swift */; };
+		CD3649AA233BDA220055E28F /* RegWasStartedInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36499F233BDA220055E28F /* RegWasStartedInteractorInput.swift */; };
+		CD3649AB233BDA220055E28F /* RegWasStartedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649A1233BDA220055E28F /* RegWasStartedRouter.swift */; };
+		CD3649D4233BDA340055E28F /* AuthPhoneAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649AE233BDA340055E28F /* AuthPhoneAssembly.swift */; };
+		CD3649D5233BDA340055E28F /* AuthPhoneViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649B0233BDA340055E28F /* AuthPhoneViewOutput.swift */; };
+		CD3649D6233BDA340055E28F /* AuthPhoneInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649B1233BDA340055E28F /* AuthPhoneInteractorOutput.swift */; };
+		CD3649D7233BDA340055E28F /* AuthPhoneModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649B2233BDA340055E28F /* AuthPhoneModuleInput.swift */; };
+		CD3649D8233BDA340055E28F /* AuthPhonePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649B3233BDA340055E28F /* AuthPhonePresenter.swift */; };
+		CD3649D9233BDA340055E28F /* AuthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649B7233BDA340055E28F /* AuthData.swift */; };
+		CD3649DA233BDA340055E28F /* AuthPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649B9233BDA340055E28F /* AuthPhoneViewController.swift */; };
+		CD3649DB233BDA340055E28F /* AuthPhoneViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649BA233BDA340055E28F /* AuthPhoneViewInput.swift */; };
+		CD3649DC233BDA340055E28F /* AuthPhoneTextFieldFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649BB233BDA340055E28F /* AuthPhoneTextFieldFormatter.swift */; };
+		CD3649DD233BDA340055E28F /* AuthPhoneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649BD233BDA340055E28F /* AuthPhoneInteractor.swift */; };
+		CD3649DE233BDA340055E28F /* AuthPhoneInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649BE233BDA340055E28F /* AuthPhoneInteractorInput.swift */; };
+		CD3649DF233BDA340055E28F /* AuthPhoneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649C0233BDA340055E28F /* AuthPhoneRouter.swift */; };
+		CD3649E0233BDA340055E28F /* AuthSmsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649C3233BDA340055E28F /* AuthSmsAssembly.swift */; };
+		CD3649E1233BDA340055E28F /* AuthSmsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649C5233BDA340055E28F /* AuthSmsInteractorOutput.swift */; };
+		CD3649E2233BDA340055E28F /* AuthSmsModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649C6233BDA340055E28F /* AuthSmsModuleInput.swift */; };
+		CD3649E3233BDA340055E28F /* AuthSmsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649C7233BDA340055E28F /* AuthSmsViewOutput.swift */; };
+		CD3649E4233BDA340055E28F /* AuthSmsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649C8233BDA340055E28F /* AuthSmsPresenter.swift */; };
+		CD3649E5233BDA340055E28F /* AuthSmsTextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649CA233BDA340055E28F /* AuthSmsTextManager.swift */; };
+		CD3649E6233BDA340055E28F /* AuthSmsTextManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649CB233BDA340055E28F /* AuthSmsTextManagerProtocol.swift */; };
+		CD3649E7233BDA340055E28F /* AuthSmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649CD233BDA340055E28F /* AuthSmsViewController.swift */; };
+		CD3649E8233BDA340055E28F /* AuthSmsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649CE233BDA340055E28F /* AuthSmsViewInput.swift */; };
+		CD3649E9233BDA340055E28F /* AuthSmsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649D0233BDA340055E28F /* AuthSmsInteractorInput.swift */; };
+		CD3649EA233BDA340055E28F /* AuthSmsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649D1233BDA340055E28F /* AuthSmsInteractor.swift */; };
+		CD3649EB233BDA340055E28F /* AuthSmsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649D3233BDA340055E28F /* AuthSmsRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +58,40 @@
 		CD364986233BD8970055E28F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD364988233BD8970055E28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD364989233BD8970055E28F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD364994233BDA220055E28F /* RegWasStartedAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegWasStartedAssembly.swift; sourceTree = "<group>"; };
+		CD364996233BDA220055E28F /* RegWasStartedViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegWasStartedViewOutput.swift; sourceTree = "<group>"; };
+		CD364997233BDA220055E28F /* RegWasStartedInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegWasStartedInteractorOutput.swift; sourceTree = "<group>"; };
+		CD364998233BDA220055E28F /* RegWasStartedPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegWasStartedPresenter.swift; sourceTree = "<group>"; };
+		CD364999233BDA220055E28F /* RegWasStartedModuleInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegWasStartedModuleInput.swift; sourceTree = "<group>"; };
+		CD36499B233BDA220055E28F /* RegWasStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegWasStartedViewController.swift; sourceTree = "<group>"; };
+		CD36499C233BDA220055E28F /* RegWasStartedViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegWasStartedViewInput.swift; sourceTree = "<group>"; };
+		CD36499E233BDA220055E28F /* RegWasStartedInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegWasStartedInteractor.swift; sourceTree = "<group>"; };
+		CD36499F233BDA220055E28F /* RegWasStartedInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegWasStartedInteractorInput.swift; sourceTree = "<group>"; };
+		CD3649A1233BDA220055E28F /* RegWasStartedRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegWasStartedRouter.swift; sourceTree = "<group>"; };
+		CD3649AE233BDA340055E28F /* AuthPhoneAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthPhoneAssembly.swift; sourceTree = "<group>"; };
+		CD3649B0233BDA340055E28F /* AuthPhoneViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthPhoneViewOutput.swift; sourceTree = "<group>"; };
+		CD3649B1233BDA340055E28F /* AuthPhoneInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthPhoneInteractorOutput.swift; sourceTree = "<group>"; };
+		CD3649B2233BDA340055E28F /* AuthPhoneModuleInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthPhoneModuleInput.swift; sourceTree = "<group>"; };
+		CD3649B3233BDA340055E28F /* AuthPhonePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthPhonePresenter.swift; sourceTree = "<group>"; };
+		CD3649B7233BDA340055E28F /* AuthData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthData.swift; sourceTree = "<group>"; };
+		CD3649B9233BDA340055E28F /* AuthPhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthPhoneViewController.swift; sourceTree = "<group>"; };
+		CD3649BA233BDA340055E28F /* AuthPhoneViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthPhoneViewInput.swift; sourceTree = "<group>"; };
+		CD3649BB233BDA340055E28F /* AuthPhoneTextFieldFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthPhoneTextFieldFormatter.swift; sourceTree = "<group>"; };
+		CD3649BD233BDA340055E28F /* AuthPhoneInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthPhoneInteractor.swift; sourceTree = "<group>"; };
+		CD3649BE233BDA340055E28F /* AuthPhoneInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthPhoneInteractorInput.swift; sourceTree = "<group>"; };
+		CD3649C0233BDA340055E28F /* AuthPhoneRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthPhoneRouter.swift; sourceTree = "<group>"; };
+		CD3649C3233BDA340055E28F /* AuthSmsAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsAssembly.swift; sourceTree = "<group>"; };
+		CD3649C5233BDA340055E28F /* AuthSmsInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsInteractorOutput.swift; sourceTree = "<group>"; };
+		CD3649C6233BDA340055E28F /* AuthSmsModuleInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsModuleInput.swift; sourceTree = "<group>"; };
+		CD3649C7233BDA340055E28F /* AuthSmsViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsViewOutput.swift; sourceTree = "<group>"; };
+		CD3649C8233BDA340055E28F /* AuthSmsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsPresenter.swift; sourceTree = "<group>"; };
+		CD3649CA233BDA340055E28F /* AuthSmsTextManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsTextManager.swift; sourceTree = "<group>"; };
+		CD3649CB233BDA340055E28F /* AuthSmsTextManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsTextManagerProtocol.swift; sourceTree = "<group>"; };
+		CD3649CD233BDA340055E28F /* AuthSmsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsViewController.swift; sourceTree = "<group>"; };
+		CD3649CE233BDA340055E28F /* AuthSmsViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsViewInput.swift; sourceTree = "<group>"; };
+		CD3649D0233BDA340055E28F /* AuthSmsInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsInteractorInput.swift; sourceTree = "<group>"; };
+		CD3649D1233BDA340055E28F /* AuthSmsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsInteractor.swift; sourceTree = "<group>"; };
+		CD3649D3233BDA340055E28F /* AuthSmsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +124,7 @@
 		CD36497C233BD8930055E28F /* SomeBankModules */ = {
 			isa = PBXGroup;
 			children = (
+				CD364990233BD8A00055E28F /* Swift */,
 				CD36497D233BD8930055E28F /* AppDelegate.h */,
 				CD36497E233BD8930055E28F /* AppDelegate.m */,
 				CD364980233BD8930055E28F /* MBRootViewController.h */,
@@ -66,6 +135,215 @@
 				CD364989233BD8970055E28F /* main.m */,
 			);
 			path = SomeBankModules;
+			sourceTree = "<group>";
+		};
+		CD364990233BD8A00055E28F /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				CD364991233BD8AF0055E28F /* PresentationLayers */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		CD364991233BD8AF0055E28F /* PresentationLayers */ = {
+			isa = PBXGroup;
+			children = (
+				CD3649AC233BDA340055E28F /* AuthPhone */,
+				CD3649C1233BDA340055E28F /* AuthSms */,
+				CD364992233BDA220055E28F /* RegWasStarted */,
+			);
+			path = PresentationLayers;
+			sourceTree = "<group>";
+		};
+		CD364992233BDA220055E28F /* RegWasStarted */ = {
+			isa = PBXGroup;
+			children = (
+				CD364993233BDA220055E28F /* Assembly */,
+				CD364995233BDA220055E28F /* Presenter */,
+				CD36499A233BDA220055E28F /* View */,
+				CD36499D233BDA220055E28F /* Interactor */,
+				CD3649A0233BDA220055E28F /* Router */,
+			);
+			path = RegWasStarted;
+			sourceTree = "<group>";
+		};
+		CD364993233BDA220055E28F /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				CD364994233BDA220055E28F /* RegWasStartedAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		CD364995233BDA220055E28F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CD364996233BDA220055E28F /* RegWasStartedViewOutput.swift */,
+				CD364997233BDA220055E28F /* RegWasStartedInteractorOutput.swift */,
+				CD364998233BDA220055E28F /* RegWasStartedPresenter.swift */,
+				CD364999233BDA220055E28F /* RegWasStartedModuleInput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CD36499A233BDA220055E28F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD36499B233BDA220055E28F /* RegWasStartedViewController.swift */,
+				CD36499C233BDA220055E28F /* RegWasStartedViewInput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD36499D233BDA220055E28F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CD36499E233BDA220055E28F /* RegWasStartedInteractor.swift */,
+				CD36499F233BDA220055E28F /* RegWasStartedInteractorInput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CD3649A0233BDA220055E28F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CD3649A1233BDA220055E28F /* RegWasStartedRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CD3649AC233BDA340055E28F /* AuthPhone */ = {
+			isa = PBXGroup;
+			children = (
+				CD3649AD233BDA340055E28F /* Assembly */,
+				CD3649AF233BDA340055E28F /* Presenter */,
+				CD3649B6233BDA340055E28F /* Model */,
+				CD3649B8233BDA340055E28F /* View */,
+				CD3649BC233BDA340055E28F /* Interactor */,
+				CD3649BF233BDA340055E28F /* Router */,
+			);
+			path = AuthPhone;
+			sourceTree = "<group>";
+		};
+		CD3649AD233BDA340055E28F /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				CD3649AE233BDA340055E28F /* AuthPhoneAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		CD3649AF233BDA340055E28F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CD3649B0233BDA340055E28F /* AuthPhoneViewOutput.swift */,
+				CD3649B1233BDA340055E28F /* AuthPhoneInteractorOutput.swift */,
+				CD3649B2233BDA340055E28F /* AuthPhoneModuleInput.swift */,
+				CD3649B3233BDA340055E28F /* AuthPhonePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CD3649B6233BDA340055E28F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD3649B7233BDA340055E28F /* AuthData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD3649B8233BDA340055E28F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD3649B9233BDA340055E28F /* AuthPhoneViewController.swift */,
+				CD3649BA233BDA340055E28F /* AuthPhoneViewInput.swift */,
+				CD3649BB233BDA340055E28F /* AuthPhoneTextFieldFormatter.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD3649BC233BDA340055E28F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CD3649BD233BDA340055E28F /* AuthPhoneInteractor.swift */,
+				CD3649BE233BDA340055E28F /* AuthPhoneInteractorInput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CD3649BF233BDA340055E28F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CD3649C0233BDA340055E28F /* AuthPhoneRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CD3649C1233BDA340055E28F /* AuthSms */ = {
+			isa = PBXGroup;
+			children = (
+				CD3649C2233BDA340055E28F /* Assembly */,
+				CD3649C4233BDA340055E28F /* Presenter */,
+				CD3649C9233BDA340055E28F /* TextManager */,
+				CD3649CC233BDA340055E28F /* View */,
+				CD3649CF233BDA340055E28F /* Interactor */,
+				CD3649D2233BDA340055E28F /* Router */,
+			);
+			path = AuthSms;
+			sourceTree = "<group>";
+		};
+		CD3649C2233BDA340055E28F /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				CD3649C3233BDA340055E28F /* AuthSmsAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		CD3649C4233BDA340055E28F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CD3649C5233BDA340055E28F /* AuthSmsInteractorOutput.swift */,
+				CD3649C6233BDA340055E28F /* AuthSmsModuleInput.swift */,
+				CD3649C7233BDA340055E28F /* AuthSmsViewOutput.swift */,
+				CD3649C8233BDA340055E28F /* AuthSmsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CD3649C9233BDA340055E28F /* TextManager */ = {
+			isa = PBXGroup;
+			children = (
+				CD3649CA233BDA340055E28F /* AuthSmsTextManager.swift */,
+				CD3649CB233BDA340055E28F /* AuthSmsTextManagerProtocol.swift */,
+			);
+			path = TextManager;
+			sourceTree = "<group>";
+		};
+		CD3649CC233BDA340055E28F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD3649CD233BDA340055E28F /* AuthSmsViewController.swift */,
+				CD3649CE233BDA340055E28F /* AuthSmsViewInput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD3649CF233BDA340055E28F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CD3649D0233BDA340055E28F /* AuthSmsInteractorInput.swift */,
+				CD3649D1233BDA340055E28F /* AuthSmsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CD3649D2233BDA340055E28F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CD3649D3233BDA340055E28F /* AuthSmsRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +415,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3649E3233BDA340055E28F /* AuthSmsViewOutput.swift in Sources */,
+				CD3649AA233BDA220055E28F /* RegWasStartedInteractorInput.swift in Sources */,
 				CD36497F233BD8930055E28F /* AppDelegate.m in Sources */,
+				CD3649DB233BDA340055E28F /* AuthPhoneViewInput.swift in Sources */,
+				CD3649E6233BDA340055E28F /* AuthSmsTextManagerProtocol.swift in Sources */,
+				CD3649D6233BDA340055E28F /* AuthPhoneInteractorOutput.swift in Sources */,
+				CD3649D4233BDA340055E28F /* AuthPhoneAssembly.swift in Sources */,
+				CD3649E0233BDA340055E28F /* AuthSmsAssembly.swift in Sources */,
+				CD3649DC233BDA340055E28F /* AuthPhoneTextFieldFormatter.swift in Sources */,
 				CD36498A233BD8970055E28F /* main.m in Sources */,
+				CD3649E5233BDA340055E28F /* AuthSmsTextManager.swift in Sources */,
+				CD3649A5233BDA220055E28F /* RegWasStartedPresenter.swift in Sources */,
+				CD3649DE233BDA340055E28F /* AuthPhoneInteractorInput.swift in Sources */,
+				CD3649A2233BDA220055E28F /* RegWasStartedAssembly.swift in Sources */,
+				CD3649DA233BDA340055E28F /* AuthPhoneViewController.swift in Sources */,
+				CD3649A7233BDA220055E28F /* RegWasStartedViewController.swift in Sources */,
+				CD3649D9233BDA340055E28F /* AuthData.swift in Sources */,
+				CD3649E2233BDA340055E28F /* AuthSmsModuleInput.swift in Sources */,
 				CD364982233BD8930055E28F /* MBRootViewController.m in Sources */,
+				CD3649A9233BDA220055E28F /* RegWasStartedInteractor.swift in Sources */,
+				CD3649D5233BDA340055E28F /* AuthPhoneViewOutput.swift in Sources */,
+				CD3649DD233BDA340055E28F /* AuthPhoneInteractor.swift in Sources */,
+				CD3649D8233BDA340055E28F /* AuthPhonePresenter.swift in Sources */,
+				CD3649AB233BDA220055E28F /* RegWasStartedRouter.swift in Sources */,
+				CD3649A4233BDA220055E28F /* RegWasStartedInteractorOutput.swift in Sources */,
+				CD3649D7233BDA340055E28F /* AuthPhoneModuleInput.swift in Sources */,
+				CD3649DF233BDA340055E28F /* AuthPhoneRouter.swift in Sources */,
+				CD3649EB233BDA340055E28F /* AuthSmsRouter.swift in Sources */,
+				CD3649A3233BDA220055E28F /* RegWasStartedViewOutput.swift in Sources */,
+				CD3649E7233BDA340055E28F /* AuthSmsViewController.swift in Sources */,
+				CD3649E4233BDA340055E28F /* AuthSmsPresenter.swift in Sources */,
+				CD3649A8233BDA220055E28F /* RegWasStartedViewInput.swift in Sources */,
+				CD3649A6233BDA220055E28F /* RegWasStartedModuleInput.swift in Sources */,
+				CD3649E1233BDA340055E28F /* AuthSmsInteractorOutput.swift in Sources */,
+				CD3649E8233BDA340055E28F /* AuthSmsViewInput.swift in Sources */,
+				CD3649EA233BDA340055E28F /* AuthSmsInteractor.swift in Sources */,
+				CD3649E9233BDA340055E28F /* AuthSmsInteractorInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
