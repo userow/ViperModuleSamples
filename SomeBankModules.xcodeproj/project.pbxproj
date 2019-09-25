@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7AA7FCB4AF09CCA7760CAEA1 /* libPods-SomeBankModules.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 947B54DD0BFD432A6F725BEB /* libPods-SomeBankModules.a */; };
 		CD36497F233BD8930055E28F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD36497E233BD8930055E28F /* AppDelegate.m */; };
 		CD364982233BD8930055E28F /* MBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD364981233BD8930055E28F /* MBRootViewController.m */; };
 		CD364984233BD8970055E28F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD364983233BD8970055E28F /* Assets.xcassets */; };
@@ -49,6 +50,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FB388372F53570CE63661A4 /* Pods-SomeBankModules.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SomeBankModules.release.xcconfig"; path = "Target Support Files/Pods-SomeBankModules/Pods-SomeBankModules.release.xcconfig"; sourceTree = "<group>"; };
+		947B54DD0BFD432A6F725BEB /* libPods-SomeBankModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SomeBankModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD36497A233BD8930055E28F /* SomeBankModules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomeBankModules.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD36497D233BD8930055E28F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD36497E233BD8930055E28F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,6 +95,7 @@
 		CD3649D0233BDA340055E28F /* AuthSmsInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsInteractorInput.swift; sourceTree = "<group>"; };
 		CD3649D1233BDA340055E28F /* AuthSmsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsInteractor.swift; sourceTree = "<group>"; };
 		CD3649D3233BDA340055E28F /* AuthSmsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsRouter.swift; sourceTree = "<group>"; };
+		ED76F03E134924AE7F9F4793 /* Pods-SomeBankModules.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SomeBankModules.debug.xcconfig"; path = "Target Support Files/Pods-SomeBankModules/Pods-SomeBankModules.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,17 +103,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA7FCB4AF09CCA7760CAEA1 /* libPods-SomeBankModules.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		337B59D76C87ACC17864DC1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				947B54DD0BFD432A6F725BEB /* libPods-SomeBankModules.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B94DCDB34D939EE1FC7F75AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED76F03E134924AE7F9F4793 /* Pods-SomeBankModules.debug.xcconfig */,
+				0FB388372F53570CE63661A4 /* Pods-SomeBankModules.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CD364971233BD8930055E28F = {
 			isa = PBXGroup;
 			children = (
 				CD36497C233BD8930055E28F /* SomeBankModules */,
 				CD36497B233BD8930055E28F /* Products */,
+				B94DCDB34D939EE1FC7F75AE /* Pods */,
+				337B59D76C87ACC17864DC1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -353,6 +378,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD36498D233BD8970055E28F /* Build configuration list for PBXNativeTarget "SomeBankModules" */;
 			buildPhases = (
+				772B68C656AE5CB8B72D5FEB /* [CP] Check Pods Manifest.lock */,
 				CD364976233BD8930055E28F /* Sources */,
 				CD364977233BD8930055E28F /* Frameworks */,
 				CD364978233BD8930055E28F /* Resources */,
@@ -409,6 +435,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		772B68C656AE5CB8B72D5FEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SomeBankModules-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD364976233BD8930055E28F /* Sources */ = {
@@ -583,6 +634,7 @@
 		};
 		CD36498E233BD8970055E28F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED76F03E134924AE7F9F4793 /* Pods-SomeBankModules.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -593,12 +645,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.userow.SomeBankModules;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		CD36498F233BD8970055E28F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB388372F53570CE63661A4 /* Pods-SomeBankModules.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -609,6 +663,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.userow.SomeBankModules;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
