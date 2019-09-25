@@ -47,6 +47,7 @@
 		CD3649E9233BDA340055E28F /* AuthSmsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649D0233BDA340055E28F /* AuthSmsInteractorInput.swift */; };
 		CD3649EA233BDA340055E28F /* AuthSmsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649D1233BDA340055E28F /* AuthSmsInteractor.swift */; };
 		CD3649EB233BDA340055E28F /* AuthSmsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3649D3233BDA340055E28F /* AuthSmsRouter.swift */; };
+		CD3EE049233BE2C000EDEBA4 /* AuthV2Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3EE048233BE2C000EDEBA4 /* AuthV2Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +96,7 @@
 		CD3649D0233BDA340055E28F /* AuthSmsInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsInteractorInput.swift; sourceTree = "<group>"; };
 		CD3649D1233BDA340055E28F /* AuthSmsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsInteractor.swift; sourceTree = "<group>"; };
 		CD3649D3233BDA340055E28F /* AuthSmsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSmsRouter.swift; sourceTree = "<group>"; };
+		CD3EE048233BE2C000EDEBA4 /* AuthV2Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthV2Service.swift; sourceTree = "<group>"; };
 		ED76F03E134924AE7F9F4793 /* Pods-SomeBankModules.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SomeBankModules.debug.xcconfig"; path = "Target Support Files/Pods-SomeBankModules/Pods-SomeBankModules.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,7 +126,6 @@
 				ED76F03E134924AE7F9F4793 /* Pods-SomeBankModules.debug.xcconfig */,
 				0FB388372F53570CE63661A4 /* Pods-SomeBankModules.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +150,7 @@
 		CD36497C233BD8930055E28F /* SomeBankModules */ = {
 			isa = PBXGroup;
 			children = (
+				CD3EE046233BE2B200EDEBA4 /* BusinessLogicLayer */,
 				CD364990233BD8A00055E28F /* Swift */,
 				CD36497D233BD8930055E28F /* AppDelegate.h */,
 				CD36497E233BD8930055E28F /* AppDelegate.m */,
@@ -371,6 +373,22 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		CD3EE046233BE2B200EDEBA4 /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CD3EE047233BE2C000EDEBA4 /* Auth2Service */,
+			);
+			path = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		CD3EE047233BE2C000EDEBA4 /* Auth2Service */ = {
+			isa = PBXGroup;
+			children = (
+				CD3EE048233BE2C000EDEBA4 /* AuthV2Service.swift */,
+			);
+			path = Auth2Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -481,6 +499,7 @@
 				CD3649DE233BDA340055E28F /* AuthPhoneInteractorInput.swift in Sources */,
 				CD3649A2233BDA220055E28F /* RegWasStartedAssembly.swift in Sources */,
 				CD3649DA233BDA340055E28F /* AuthPhoneViewController.swift in Sources */,
+				CD3EE049233BE2C000EDEBA4 /* AuthV2Service.swift in Sources */,
 				CD3649A7233BDA220055E28F /* RegWasStartedViewController.swift in Sources */,
 				CD3649D9233BDA340055E28F /* AuthData.swift in Sources */,
 				CD3649E2233BDA340055E28F /* AuthSmsModuleInput.swift in Sources */,
