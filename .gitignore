@@ -1,0 +1,16 @@
+.DS_Store
+*.xcuserdatad
+*.xcscheme
+Pods/
+Podfile.lock
+*.xcworkspace
+# fastlane/*.lock
+# fastlane/
+/fastlane/README.md
+/fastlane/report.xml
+/Podfile.lock
+/Gemfile
+xcschememanagement.plist
+/.idea/workspace.xml
+/.idea/encodings.xml
+/.idea/xcode.xml
